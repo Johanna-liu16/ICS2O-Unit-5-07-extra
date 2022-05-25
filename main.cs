@@ -18,9 +18,10 @@ class Program
         counter = Convert.ToInt32(Console.ReadLine());
 
         //Process
-        for (int addedNumber = 1; addedNumber <= counter; addedNumber++) {
+        for (int addedNumber = 1; addedNumber <= counter; addedNumber++)
+        {
             answer += addedNumber;
-        }
+       }
         
         Console.WriteLine("The sum is: " + answer);
 

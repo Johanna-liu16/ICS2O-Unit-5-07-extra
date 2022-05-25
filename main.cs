@@ -21,8 +21,8 @@ class Program
         for (int addedNumber = 1; addedNumber <= counter; addedNumber++)
         {
             answer += addedNumber;
-       }
-        
+        }
+
         Console.WriteLine("The sum is: " + answer);
 
         Console.WriteLine("\nDone.");
